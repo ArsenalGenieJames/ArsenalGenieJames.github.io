@@ -1,13 +1,4 @@
-@font-face {
-  font-family: 'fontello';
-  src: url('../fonts/fontello.eot?37927580');
-  src: url('../fonts/fontello.eot?37927580#iefix') format('embedded-opentype'),
-       url('../fonts/fontello.woff2?37927580') format('woff2'),
-       url('../fonts/fontello.woff?37927580') format('woff'),
-       url('../fonts/fontello.ttf?37927580') format('truetype'),
-       url('../fonts/fontello.svg?37927580#fontello') format('svg');
-  font-weight: normal;
-  font-style: normal;
+
 }
  
  [class^="icon-"]:before, [class*=" icon-"]:before {
@@ -176,6 +167,8 @@ html, body {
     -webkit-transition: border-color 0.25s ease-in-out;
     -o-transition: border-color 0.25s ease-in-out;
     -ms-transition: border-color 0.25s ease-in-out;
+    text-decoration: none;
+    text-align: justify;
 }
 
 .navbar-nav.navbar-right {
@@ -274,33 +267,6 @@ html, body {
 
 .site-section p {
     margin-bottom: 35px;
-}
-
-/* Section: Skills */
-.section-skills {
-    padding-bottom: 120px;
-}
-
-.skill + .skill {
-    margin-top: 50px;
-}
-
-.skill h4 {
-    font-size: 24px;
-    text-transform: uppercase;
-    margin: 0 0 15px;
-}
-
-.progress {
-    height: 15px;
-    margin-bottom: 0;
-    border-radius: 0;
-    background-color: #002ae7;
-    box-shadow: none;
-}
-
-.progress-bar {
-    background-color: #212121;  
 }
 
 /* Section: Services */
@@ -420,7 +386,7 @@ html, body {
     margin-top: 10px;
 }
 
-/* Modal */
+
 .modal {
     z-index: 9999;
 }
@@ -505,3 +471,4 @@ html, body {
 .section-form .btn {
     margin-top: 40px;
 }
+
