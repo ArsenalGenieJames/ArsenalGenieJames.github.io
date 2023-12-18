@@ -194,7 +194,7 @@ html, body {
 /* HERO
 ================================================== */
 .home { 
-    background: url(../img/background.jpg) no-repeat center / cover; 
+    background: url(../img/genie.jpg) no-repeat fixed center / cover;
     height: 100%;
     width: 100%;
     min-height: 700px;
