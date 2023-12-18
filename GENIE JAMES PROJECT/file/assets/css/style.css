@@ -154,47 +154,10 @@ html, body {
 .site-logo img {
     padding-bottom: 2px;
 }
-
-/* Navigation */
-.navbar-nav > li > a {
-    padding: 5px 0;
-    font-weight: 600;
-    color: #212121;
-    text-transform: uppercase;
-    border-bottom: 2px solid transparent;
-    transition: border-color 0.25s ease-in-out;
-    -moz-transition: border-color 0.25s ease-in-out;
-    -webkit-transition: border-color 0.25s ease-in-out;
-    -o-transition: border-color 0.25s ease-in-out;
-    -ms-transition: border-color 0.25s ease-in-out;
-    text-decoration: none;
-    text-align: justify;
-}
-
-.navbar-nav.navbar-right {
-    margin-right: 0;
-}
-
-.navbar-nav > li + li > a {
-    margin-left: 40px;
-}
-
-.navbar-nav > li > a:hover,
-.navbar-nav > li.active > a,
-.nav > li > a:hover,
-.nav > li.active > a {
-    background-color: transparent;
-    border-bottom: 2px solid #ff0000;
-}
-
-.nav > li > a:focus {
-    background-color: transparent;
-}
-
 /* HERO
 ================================================== */
 .home { 
-    background: url(../img/genie.jpg) no-repeat fixed center / cover;
+    background: url(../img/background.jpg) no-repeat center / cover; 
     height: 100%;
     width: 100%;
     min-height: 700px;
@@ -277,7 +240,7 @@ html, body {
 
 .section-services:before {
     content: '';
-    background: url(../img/background.mp4) no-repeat fixed center / cover;
+    background: url(../img/genie.jpg) no-repeat fixed center / cover;
     width: 100%;
     height: 400px; 
     position: absolute;
@@ -471,4 +434,3 @@ html, body {
 .section-form .btn {
     margin-top: 40px;
 }
-
