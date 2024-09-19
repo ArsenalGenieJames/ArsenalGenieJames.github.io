@@ -6,7 +6,7 @@ document.getElementById('userForm').addEventListener('submit', function(event) {
     const name = document.getElementById('name').value;  
     const age = document.getElementById('age').value;  
     const email = document.getElementById('email').value;  
-    const hobbies = document.getElementById('hobbies').value.split(',').map(hobby => hobby.trim());  
+    const hobbies = document.getElementById('hobbies').value;
     
    
     const userDetails = {  
